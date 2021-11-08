@@ -1,12 +1,12 @@
 <script>
 import Vue from "vue";
 // Uncomment import and local "components" registration if library is not registered globally.
-import { FccButton } from "@/entry.esm";
+import { TvButton } from "@/entry.esm";
 
 export default Vue.extend({
   name: "ServeDev",
   components: {
-    FccButton,
+    TvButton,
   },
 });
 </script>
@@ -14,6 +14,6 @@ export default Vue.extend({
 <template>
   <div id="app">
     <tv-ui-sample />
-    <FccButton text="i'm your father"></FccButton>
+    <TvButton text="USA I'm your father"></TvButton>
   </div>
 </template>

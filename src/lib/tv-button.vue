@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "FccButton", // vue component name
+  name: "TvButton",
   props: {
     text: {
       type: String,
